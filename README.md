@@ -1,34 +1,50 @@
 # Browser Simulation
 
-A console-based browser engine simulation built in C++ to understand how modern browsers work internally.
+A console-based browser engine simulation built in **C++** designed to explore how modern web browsers work internally.
 
-Instead of focusing only on front-end design, this project explores browser architecture and system design concepts such as request processing, browser rendering flow, caching, DOM parsing, history management, and tab handling using Object-Oriented Programming (OOP).
+Rather than focusing only on the user interface, this project models the core architectural components of a browser, including request processing, caching, DOM parsing, rendering, history navigation, and tab management using Object-Oriented Programming (OOP) principles.
 
-The project simulates how a browser processes a request — from URL input to rendering output — while modelling browser components through modular and layered system design.
+The goal is to understand browser internals through practical implementation and system design.
 
 ---
 
 ## Why This Project?
 
-Modern browsers such as Chrome and Firefox are complex systems containing multiple interacting layers such as:
+Modern browsers such as Chrome and Firefox are highly sophisticated systems composed of multiple interacting layers:
 
 * Browser Engine
 * Rendering Pipeline
 * Cache Management
-* Page Parsing
+* DOM Parsing
 * History Navigation
 * Tab Management
 * Request Processing
 
-This project was created to better understand these internal workflows through hands-on implementation using C++ and OOP principles.
+This project was built to gain hands-on experience with these concepts by simulating how a browser processes and renders content.
 
-Rather than building only a browser-like interface, the goal was to simulate the internal behaviour and architecture of a browser.
+---
+
+## Screenshots
+
+### Console Browser
+
+![Console Browser](assets/screenshots/console-browser.png)
+
+### Browser Interface
+
+![Browser Interface](assets/screenshots/browser-interface.png)
+
+### Browser Settings
+
+![Browser Settings](assets/screenshots/browser-settings.png)
+
+### Cache System
+
+![Cache System](assets/screenshots/cache-system.png)
 
 ---
 
 ## Browser Request Pipeline
-
-The following diagram represents the browser workflow explored in this project:
 
 ```text
 User enters URL
@@ -105,16 +121,14 @@ Browser Engine
 * Browser rendering flow simulation
 * Multi-tab browser support
 * Back and forward history navigation
-* User authentication (signup/login using file handling)
+* User authentication using file handling
 * DOM parsing and rendering simulation
-* Interactive browser pages (News, Shop, Sports, Quotes, Calendar, Game)
+* Interactive browser pages (News, Sports, Shop, Quotes, Calendar, Game)
 * Themed console output system
 
 ---
 
 ## Browser Concepts Explored
-
-This project focuses on understanding how browsers work internally, including:
 
 * Browser Engine workflow
 * Rendering pipeline
@@ -161,44 +175,39 @@ This project focuses on understanding how browsers work internally, including:
 
 ## Project Goals
 
-The objective of this project was to:
-
 * Understand browser internals through implementation
-* Apply Object-Oriented Programming to a real-world system
-* Explore layered architecture and modular software design
+* Apply OOP principles to a real-world system
+* Explore modular software architecture
 * Simulate browser request and rendering behaviour
 
 ---
 
 ## How to Run
 
-### Clone the repository
+### Clone the Repository
 
 ```bash
 git clone https://github.com/rathoremahee21/Browser-Simulation.git
 ```
 
-### Run the project
-
-1. Open the project in VS Code or CodeBlocks
-2. Compile using a C++17 compiler (`g++`)
-3. Run the executable
-
-Example:
+### Build and Run
 
 ```bash
 g++ main.cpp -o browser
 ./browser
 ```
 
+Or open the project in VS Code, CodeBlocks, or any C++ IDE and compile using a C++17 compatible compiler.
+
 ---
 
 ## Current Limitations
 
 * No real internet access (predefined pages only)
-* Windows-targeted implementation
-* Passwords stored in plaintext (for academic simulation)
-* No CSS/JS rendering engine implementation
+* Windows-focused implementation
+* Passwords stored in plaintext (educational purposes only)
+* No CSS rendering engine
+* No JavaScript execution engine
 * No multimedia support
 
 ---
@@ -206,8 +215,8 @@ g++ main.cpp -o browser
 ## Future Improvements
 
 * Real HTTP request handling
-* Better browser engine simulation
-* Secure authentication with hashing
+* Advanced browser engine simulation
+* Secure password hashing
 * Cross-platform compatibility
 * GUI-based browser version
 * Enhanced rendering pipeline simulation
@@ -216,20 +225,19 @@ g++ main.cpp -o browser
 
 ## Learning Outcomes
 
-Through this project, I gained practical exposure to:
+This project provided practical experience with:
 
 * Browser architecture fundamentals
 * OOP-based system design
-* Data structures in real applications
+* Data structures in real-world applications
 * Modular software engineering
-* Cache and request lifecycle concepts
+* Cache management systems
+* Request lifecycle modelling
 
 ---
 
 ## Author
-**Anushka Lal**
-**Mahee Rathore**
 
+**Anushka Lal Mahee Rathore**
 
-GitHub: rathoremahee21
-Github:AnushkaLal
+GitHub: https://github.com/rathoremahee21
